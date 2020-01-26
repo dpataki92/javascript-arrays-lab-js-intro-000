@@ -3,11 +3,11 @@ var kittens = ['Milo', 'Otis', 'Garfield'] //define your array here
 
 // Add your functions and code here
 function destructivelyAppendKitten (name) {
-  kittens.push(kitten);
+  kittens.push(name);
 }
 
 function destructivelyPrependKitten (name) {
-  kittens.unshift(kitten),
+  kittens.unshift(name),
 }
 
 function destructivelyRemoveLastKitten () {
@@ -19,7 +19,7 @@ function destructivelyRemoveFirstKitten () {
 }
 
 function appendKitten (name) {
-  return [...kittens, kitten];
+  return [...kittens, name];
 }
 
 function prependKitten (name) {
